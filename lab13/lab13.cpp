@@ -5,7 +5,9 @@ using namespace std;
 int main ()
 {
     // The are the orignal number we are basing this off of. They started at mintues and will transfer to years.
+    //change the years to get a differnent answer 
     //The Equation to turn births per min into per year
+     int years = 55;
     int birthPerMin=7.5;
     int birthPerHour = birthPerMin *60;
     int birthPerDay = birthPerHour * 24;
@@ -20,14 +22,13 @@ int main ()
     int migrantPerHour = migrantPerMin * 60;
     int migrantPerDay = migrantPerHour * 24;
     int migrantPerYear = migrantPerDay * 365;
-     int years = 25;
-     // These are the computer adding the numbers together in order to get to the new us population.
+     // These variables are the computer adding the numbers together in order to get to the new US population.
     int popIncrease =birthPerYear + migrantPerYear;
     int netGrow = popIncrease - deathPerYear;
     int growPerYear= netGrow * years ;
     int usPop=325770151;
     int newPop = growPerYear + usPop;
-  cout << "The birth per year is " <<   birthPerYear << " the death per year is " << deathPerYear << " the mingrant per year is "<< migrantPerYear <<" the net growth per year is  after " << years << " years is " << netGrow << " the new population is " << newPop;
+  cout << "The births per year is " <<   birthPerYear << " the deaths per year is " << deathPerYear << " the mingrants per year is "<< migrantPerYear <<" the net growth per year is "  << netGrow << " and after " << years << " years the new population is " << newPop;
   return 0;
   
 }
