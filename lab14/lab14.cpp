@@ -6,8 +6,8 @@
 using namespace std;
 int main () {
     //the orginal amount begin turned into quaters 
-    int orginalamount=3459;
-    int change= 3459%25;
+    int orginalamount=100;
+    int change= 100%25;
     int quaterAmount= orginalamount/25;
     //The left over begin turned into dimes 
    int   dimeAmount = change/10;
@@ -22,6 +22,6 @@ int main () {
   double moneyBack = ((quaterAmount * .0025)+ (dimeAmount *.0010) +  (nickleAmount * .0005) + (penniesAmount *.0001)) /.0109;
   
   
-    cout << " you entered " << orginalamount<< " coins" " , you will get $"<< moneyBack  << " ." << "you entered " <<quaterAmount <<" quarters" << " ," <<dimeAmount<< " dimes," << nickleAmount<< " nickles, " << penniesAmount << " pennies, with " <<change3 << " leftover";
+    cout << " you entered " << orginalamount<< " coins" " , you will get $"<< moneyBack  << " ." << "you entered " <<quaterAmount <<" quarters" << " ," <<dimeAmount<< " dimes," << change2<< " nickles, " << change3 << " pennies, with " <<change3 << " leftover";
 }
 
