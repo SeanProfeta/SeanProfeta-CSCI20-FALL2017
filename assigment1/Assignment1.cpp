@@ -3,9 +3,11 @@
 /* The goal of this program is the user will enter their weight, height, and age in the Imperial system and the program will switch it into the metric number. It will then display all your information and display
 your maintince calories with two differnt formuals the "mifflin - st jeor formula" and the "harris-benedict formula". It will also show you how much of one kind of food you will need to eat to be able to meet these calories.
 */
+// in order to use strings you must also do a #include something i always forget about.
 #include <iostream>
 #include <string>
 using namespace std;
+// The struct that is need later to make this program work.
 struct userHealth {
     string userinfo;
     string name;
@@ -16,7 +18,7 @@ struct userHealth {
     
 };
 
-//The users information 
+//The users enters their information 
 int main () {
 userHealth user1;
 cout << "enter your name" << endl;
@@ -48,3 +50,21 @@ cout << "in order to meet this you would need to eat " << cupChicken << " cups o
 cout << "your maintince calories using the The Harris-Benedict formula is " << harris << endl;
 cout << "in order to meet this you would need to eat " << cupChicken1 << " cups of chicken";
 };
+/*
+ enter your name
+sean
+age 
+19
+weight
+140
+height in ft
+5
+height in cm
+6
+sean
+Age(months) : 228 User Weight(Kg): 63 User Height(Cm): 167
+you maintince calories using the mifflin -st jeor formula is 1585.27
+in order to meet this you would need to eat 6.86264 cups of chicken
+your maintince calories using the The Harris-Benedict formula is 1639.53
+in order to meet this you would need to eat 7.09752 cups of chicken
+\*
