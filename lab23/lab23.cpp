@@ -33,4 +33,10 @@ change;
  pick a number 
 55
 Your numbers are 1 and 55 the selected number is 47
+ pick a number 
+33
+ pick a number 
+22
+Your numbers are 33 and 22 the selected number is 33
+
 */
