@@ -41,3 +41,12 @@ change;
         // THis is where we get our return
         return 0;
     }
+/*
+pick a number 
+1
+ pick a number 
+200
+Your numbers are 1 and 200 the selected number is 113
+This converted to kilograms is 51.3636 Kg
+now we will be converting the kilograms to pounds which is 113 lbs 
+*\
