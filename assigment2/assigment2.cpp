@@ -3,7 +3,6 @@
 //This program is meant for a user to enter their foot size in inches and it will display their us , uk , euro , and shoe size in centimeters. 
 //the point of the program is for international companies get the user to enter one number and we will be able to display the shoe size of the user no matter where they are from.
 #include<iostream>
-#include<iomanip>
 #include<string> 
 using namespace std;
 //class feet {
@@ -37,11 +36,3 @@ int ukSize=uksize(footin);
     cout << "your US size is " << usSize <<" your euro size is " << euroSize <<" your uk size is "<<  ukSize << " and in centimeters is " << centimeters << " long";
     return 0;
 }
-/* Running /home/ubuntu/workspace/assigment2/assigment2.cpp
-enter foot size in inches 
-15
-Your foot size is 15 inches
-your US size is 11 your euro size is 62 your uk size is 10 and in centimeters is 38 long
-
-Process exited with code: 0
-\*
