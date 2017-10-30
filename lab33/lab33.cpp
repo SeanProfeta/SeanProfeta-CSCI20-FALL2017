@@ -27,27 +27,27 @@ main(){
             cout <<" number too high guess again" << endl;
              cout << "user enter number between 1 and 50" << endl;
     cin >> user_Num;
-     for  ( user_Num < rand_Num){
+     if  ( user_Num < rand_Num){
     cout << "number too low guess again" << endl;
      cout << "user enter number between 1 and 50" << endl;
     cin >> user_Num;
     }
-   for (user_Num == rand_Num){
+   if (user_Num == rand_Num){
         cout << " number is just right " << "the number is " << user_Num ;
     }
          }
-    for ( user_Num < rand_Num){
+    if ( user_Num < rand_Num){
     cout << "number too low guess again" << endl;
      cout << "user enter number between 1 and 50" << endl;
     cin >> user_Num;
-      for  (user_Num > rand_Num){
+      if  (user_Num > rand_Num){
             cout <<" number too high guess again" << endl;
              cout << "user enter number between 1 and 50" << endl;
     cin >> user_Num;
-   for  (user_Num == rand_Num){
+   if  (user_Num == rand_Num){
         cout << " number is just right " << "the number is " << user_Num ;
     }
-    for (user_Num == rand_Num){
+    if (user_Num == rand_Num){
         cout << " number is just right " << "the number is " << user_Num ;
     }
       }}
