@@ -62,7 +62,7 @@ Payment for year 3 : 500
 Payment for year 4 : 500
 Payment for year 5 : 500
 Payment for year 6 : 500
-Payment for year 7 : 50
+Payment for year 7 : 500
 Payment for year 8 : 500
 Payment for year 9 : 500
 Payment for year 10 : 500
