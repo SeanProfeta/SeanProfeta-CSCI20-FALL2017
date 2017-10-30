@@ -27,27 +27,27 @@ main(){
             cout <<" number too high guess again" << endl;
              cout << "user enter number between 1 and 50" << endl;
     cin >> user_Num;
-     if ( user_Num < rand_Num){
+     for  ( user_Num < rand_Num){
     cout << "number too low guess again" << endl;
      cout << "user enter number between 1 and 50" << endl;
     cin >> user_Num;
     }
-    if (user_Num == rand_Num){
+   for (user_Num == rand_Num){
         cout << " number is just right " << "the number is " << user_Num ;
     }
          }
-    if ( user_Num < rand_Num){
+    for ( user_Num < rand_Num){
     cout << "number too low guess again" << endl;
      cout << "user enter number between 1 and 50" << endl;
     cin >> user_Num;
-      if (user_Num > rand_Num){
+      for  (user_Num > rand_Num){
             cout <<" number too high guess again" << endl;
              cout << "user enter number between 1 and 50" << endl;
     cin >> user_Num;
-     if (user_Num == rand_Num){
+   for  (user_Num == rand_Num){
         cout << " number is just right " << "the number is " << user_Num ;
     }
-    if (user_Num == rand_Num){
+    for (user_Num == rand_Num){
         cout << " number is just right " << "the number is " << user_Num ;
     }
       }}
@@ -57,7 +57,33 @@ main(){
 user enter number between 1 and 50
 52
 number entered too high pick again
+
 user enter number between 1 and 50
 0
 number entered too low pick again
+
+user enter number between 1 and 50
+24 
+5
+4
+3
+2
+1
+ number too high guess again
+user enter number between 1 and 50
+18
+
+user enter number between 1 and 50
+2
+5
+4
+3
+2
+1
+number too low guess again
+user enter number between 1 and 50
+35
+ number too high guess again
+user enter number between 1 and 50
+24
 */
