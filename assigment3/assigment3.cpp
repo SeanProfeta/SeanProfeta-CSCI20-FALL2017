@@ -9,7 +9,7 @@ thats between 1-7 which will each have its own consquence/reward this game will 
 using namespace std ;
 main(){
       srand(time(0));
-    int pickcherries = rand()%7+1;
+    int pickcherries =rand()%7+1;
     cout << "type in ten " << endl;
     cout<< pickcherries;
     for (int treecherries=10; treecherries>0;treecherries=0){
