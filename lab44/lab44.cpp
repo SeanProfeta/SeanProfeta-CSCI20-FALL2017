@@ -8,7 +8,6 @@ It should tell the user if the name is too long. it will also display if the two
 #include<string.h>
 #include<cstring>
  using namespace std;
- 
  int main(){
      //This will get the user to eneter their first name 
      cout << "Enter your first name (>10)" << endl;
@@ -28,7 +27,7 @@ It should tell the user if the name is too long. it will also display if the two
          cout << "last name is too long try again" << endl;
          cin >> last_Name;
      }
-     
+     // This make the user reeneter their last name if the first and last name match.
      while ((strcmp(first_Name,last_Name) == 0)){
          cout << "The first and last match please enter last name" << endl;
          cin>>last_Name;
@@ -41,3 +40,22 @@ It should tell the user if the name is too long. it will also display if the two
      cout << first_Name << last_Name << endl;
      
  }
+ /*
+ Enter your first name (>10)
+jhsdkjhkgjdgjlksdjglkjslgjklsdjgksdjg
+first name is too long try again
+sean
+Enter your last name (>20)
+isdjlgjseiojgiosjoigjseiojgiesjgjseijgsjogjseojgoesjgowejsgojsiojgioejgioesjiogjesiojgsjiegjioes
+last name is too long try again
+sean
+The first and last match please enter last name
+profeta
+User full name
+sean profeta
+seprofeta
+sprofeta
+seanprofeta
+*** stack smashing detected ***: /home/ubuntu/workspace/lab44/lab44.cpp.o terminated
+bash: line 12: 31263 Aborted                 $file.o $args
+*/
