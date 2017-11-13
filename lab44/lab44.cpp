@@ -35,6 +35,7 @@ It should tell the user if the name is too long. it will also display if the two
      cout <<"User full name" << endl << first_Name << ' ' << last_Name <<endl;
      
      // This portion of the program will display the different usernames
+     cout << "Your suggested user names are :" << endl;
      cout << first_Name[0] << first_Name [1] << last_Name << endl;
      cout << first_Name[0] << last_Name << endl;
      cout << first_Name << last_Name << endl;
