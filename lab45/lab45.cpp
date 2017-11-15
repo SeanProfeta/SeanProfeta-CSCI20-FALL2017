@@ -17,7 +17,6 @@ It should tell the user if the name is too long. it will also display if the two
      // This will see if the user's name is too long and will tell them to try again
     if (first_Name.length() > 11){
          cout << "first name is too long try again" << endl;
-         return 0;
      }
      //This will get the user to eneter their last name
      cout << "Enter your last name (>20)" << endl;
@@ -26,13 +25,11 @@ It should tell the user if the name is too long. it will also display if the two
      // This will see if the user's name is too long and will tell them to try again
      if (last_Name.length() >21){
          cout << "last name is too long try again" << endl;
-         return 0;
      }
      // This make the user reeneter their last name if the first and last name match.
     if ((first_Name.compare(last_Name) == 0)){
          cout << "The first and last match please enter last name" << endl;
-         return 0;
-     };
+     }
      cout <<"User full name" << endl << first_Name << ' ' << last_Name <<endl;
      
      // This portion of the program will display the different usernames
@@ -71,8 +68,22 @@ name 3
 Enter your first name (>10)
 anaElizabeth
 first name is too long try again
+Enter your last name (>20)
+Hazeltine-smith
+User full name
+anaElizabeth Hazeltine-smith
+Your suggested user names are :
+anHazeltine-smith
+aHazeltine-smith
+anaElizabethHazeltine-smith
+
 
 name 4
+Enter your first name (>10)
+james
+Enter your last name (>20)
+james
+The first and last match please enter last name
 
 
 */
