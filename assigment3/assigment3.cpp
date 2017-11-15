@@ -7,42 +7,12 @@ thats between 1-7 which will each have its own consquence/reward this game will 
 #include <ctime>
 #include <cstdlib>
 using namespace std ;
-main(){
-      srand(time(0));
-    int pickcherries =rand()%7+1;
-    cout << "type in ten " << endl;
-    cout<< pickcherries;
-    for (int treecherries=10; treecherries>0;treecherries=0){
-        if (pickcherries==1) { 
-            pickcherries -1; 
-            cout << pickcherries <<endl;
-        }
-    if (pickcherries ==2){
-        treecherries-2;
-        cout <<treecherries;
-    }
-    if (pickcherries== 3){
-        treecherries-3;
-        cout<< treecherries<< endl;
-    }
-    if (pickcherries==4){
-        treecherries -4;
-        cout << treecherries<< endl;
-    }
-    if (pickcherries==5 || 6){
-        if (treecherries <=8){
-            treecherries +2;
-            cout << treecherries<< endl;
-        }
-        if (pickcherries <=9){
-            treecherries+1;
-            cout << treecherries<< endl;
-        }
-        
-    }
-    if (pickcherries == 10){
-        treecherries =10;
-        cout << treecherries<< endl;
-    }
-}
-}
+
+class Truns 
+private :
+int user_turn;
+int number;
+int sticks ;
+int pc_choice;
+
+
