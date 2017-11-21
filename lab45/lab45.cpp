@@ -84,6 +84,11 @@ james
 Enter your last name (>20)
 james
 The first and last match please enter last name
-
+User full name
+james james
+Your suggested user names are :
+jajames
+jjames
+jamesjames
 
 */

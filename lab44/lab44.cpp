@@ -53,10 +53,10 @@ Your suggested user names are :
 seprofeta
 sprofeta
 seanprofeta
-name 2
 
+name 2
 Enter your first name (>10)
-April        
+April       
 Enter your last name (>20)
 Browne
 User full name
@@ -66,17 +66,31 @@ ApBrowne
 ABrowne
 AprilBrowne
 
-Name 3
+name 3 
 Enter your first name (>10)
-AnaElizabeth
+anaElizabeth
 first name is too long try again
+Enter your last name (>20)
+Hazeltine-smith
+User full name
+anaElizabeth Hazeltine-smith
+Your suggested user names are :
+anHazeltine-smith
+aHazeltine-smith
+anaElizabethHazeltine-smith
 
-Name 4
+
+name 4
 Enter your first name (>10)
 james
 Enter your last name (>20)
 james
 The first and last match please enter last name
-
+User full name
+james james
+Your suggested user names are :
+jajames
+jjames
+jamesjames
 
 */
