@@ -9,7 +9,6 @@
 #include <string>
 using namespace std;
 int main (){
-    //THis is where I put most of the variables i add a few later
     string fname;
     string lname;
     int numcourses =0;
@@ -21,8 +20,19 @@ int main (){
     //This section is used to open the files 
     ifstream fin;
     ofstream fout;
-    fin.open("input.txt");
-    fout.open("output.txt");
+     fin.open("input.txt");
+    fout.open("output.html");
+    //THis is where I put most of the variables i add a few later
+    //fout.open("lab46.html");
+    fout << "<!DOCTYPE html>" << endl;
+    fout << "<head>" << endl;
+    fout << "<title>" << "lab46"<< "</title>";
+    fout <<  "<html>" << endl;
+    fout << "<head>" << endl;
+    fout << "<title>" << "Student" << "</title>" << endl;
+    fout << "<body>" << endl;
+    
+   
     // This while function will work while the file is open 
     while(!fin.eof()){
         fin >> fname;
@@ -56,7 +66,7 @@ for( int i=0; i<numcourses;i++){
     //Calculating the gpa
 }
 double gpa= totalpoints/totalhours;
-fout << "Name: " << fname << " " << lname << endl;
+fout << "<h1>" << "Name: " << fname << " " << lname << "<h1>" << endl;
 fout <<"Number of courses enrolled in " << numcourses << endl;
 fout <<"Hours Grade" << endl;
 
@@ -69,8 +79,12 @@ totalhours=0;
 totalpoints=0.0;
 }
 //use to close the file
+fout<< "</body>" << endl;
+fout << "</html>"<< endl;
 fin.close();
 fout.close(); 
 return 0;
+
+
 
 }
